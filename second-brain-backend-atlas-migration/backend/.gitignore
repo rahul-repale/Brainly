@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Production Build Output
+dist/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Hugging Face / Transformers ONNX Model Cache
+.cache/
+*.onnx
+
+# Vercel Deployment Artifacts
+.vercel/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
